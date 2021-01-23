@@ -1,29 +1,24 @@
-# template-electron-vue-ts
-
-## Project setup
+# 🍔 template-electron-vue-ts
+## Overview
+This repository is electron application template with typescript.
+## Get Started
+1. Git clone this repository,
+2. Project setup.
 ```
-npm install
+npm install  
 ```
-
-### Compiles and hot-reloads for development
+3. Compiles and hot-reloads for development.
 ```
-npm run serve
+npm run electron:serve
 ```
-
-### Compiles and minifies for production
+4. Application build.
 ```
-npm run build
+npm run electron:build
 ```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Template Details
+- VueVersion: 2x
+- Router: HistoryMode
+- CssPreProcessor: dart-sacss
+- Eslint: Airbnb
+- ElectronVersion: ^9.0.0
+- UserElectronBuilder: electron-builder
